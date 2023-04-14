@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.dari-navbar .navbar-expand-lg {
+    padding: 10px 0px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -34px;
+}
+
+.dari-navbar .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.dari-navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: none;
+    background: radial-gradient(113.08% 254.09% at 76.21% -55.15%, #FF2639 0%, #EA1C2C 30%, #B30309 92%, #AB0004 100%);}
+
+.dari-navbar .navbar-nav .nav-item .nav-link img {
+    margin-bottom: 5px;
+    height: 100%;
+    width: 25%;
+}
+
+.dari-navbar .navbar-nav .nav-item .nav-link .dropdown-img {
+    width: 20%;
+}
+
+.dari-navbar .navbar-nav .nav-item .logo-size img {
+    width: 17%;
+}
+
+.dari-navbar .navbar-light .navbar-brand img {
+    height: 100%;
+    width: 70%;
+}
+
+.dropdown-menu-img {
+    width: 16%;
+    margin-bottom: 7px;
+}
+
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    #support-navbar-container {
+        max-width: 1720px;
+    }
+
+    .dari-navbar .navbar-light .navbar-brand img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link img {
+        margin-bottom: 13px;
+        width: 31%;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link .dropdown-img {
+        width: 22%;
+        margin-bottom: 10px;
+    }
+
+    .logo-size img {
+        width: 20% !important;
+        margin-bottom: 8px;
+    }
+
+    #micare-navbar-dropdown {
+        min-width: 18rem !important;
+    }
+
+    #micare-navbar-dropdown .dropdown-item {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .dropdown-menu-img {
+        width: 17%;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .dari-navbar .navbar-nav .nav-item .nav-link img {
+        width: 27px;
+        margin-bottom: 6px;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link .dropdown-img {
+        width: 27px;
+        margin-bottom: 8px;
+    }
+
+    .dropdown-menu-img {
+        width: 20px;
+    }
+}

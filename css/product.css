@@ -1,0 +1,1170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'lofty_goals';
+    src: url('lofty_goals-webfont.woff2') format('woff2'), url('lofty_goals-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#mi-header-section .header-img {
+    background: url(../img/header-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: auto;
+    max-width: 100%;
+}
+
+#mi-header-section .w-100 {
+    margin: 30px 0px;
+    height: 640px;
+}
+
+#mi-header-section .header-faces::after {
+    content: "";
+    background-image: url(../img/mi-product-log.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: -280px;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.664);
+}
+
+#mi-header-section .header-faces {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* header */
+
+/* 2nd */
+.dari-skincare {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 20px 0px 40px;
+}
+
+/* .dari-skincare .text-center h1 img {
+    margin-bottom: 15px;
+} */
+
+.dari-skincare .text-center h1 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    border-bottom: 2px solid #A90004;
+    width: 430px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.dari-skincare .text-center h1 b {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.dari-skincare .text-center p {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.dari-skincare .text-center p:last-child {
+    margin-bottom: 50px;
+}
+
+.dari-skincare .skincare-img img {
+    height: 100%;
+    width: 15%;
+}
+
+.dari-skincare .skincare-img .col-md-12 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 2nd */
+
+
+/* 3rd */
+.dari-text-section {
+    background-image: url(../img/miproduct-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+}
+
+.dari-text-section .text-center {
+    padding-top: 40px;
+}
+
+.dari-text-section .text-center h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.dari-text-section .text-center h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+/* 3rd */
+
+
+/* 4th */
+.dari-items .dari-item-img .col-md-5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.dari-items .dari-product p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    padding: 50px 50px 20px 0px;
+}
+
+.dari-items .dari-product .row .col-md-4 {
+    position: relative;
+    padding: 0px 0px 45px 50px;
+}
+
+.dari-items .dari-product .row .col-md-4 h6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0px;
+}
+
+.dari-items .dari-product .row .col-md-4 h6::before {
+    content: '';
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    top: -12px;
+    left: 0px;
+    background: url(../img/dari-flower-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img2::before {
+    background: url(../img/dari-guaranteed-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img3::before {
+    background: url(../img/dari-hand.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img4::before {
+    background: url(../img/rabit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img5::before {
+    background: url(../img/dari-verified-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img6::before {
+    background: url(../img/dari-recycle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img7::before {
+    background: url(../img/dari-lef-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img8::before {
+    background: url(../img/dari-lab-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.dari-items .dari-product .row .col-md-4 .mi-img9::before {
+    background: url(../img/dari-world\ img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* 4th */
+
+/* 5th */
+.dari-about .container-fluid {
+    background: rgb(243, 243, 243) url(../img/rabits-on-grass-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    padding: 50px 0px;
+}
+
+.dari-about .container-fluid .text-center p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    color: #000000;
+}
+
+/* 5th */
+
+/* 6th */
+.dari-damo {
+    padding: 30px 50px;
+}
+
+.dari-damo .col-md-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.dari-damo .dari-damo-img2 h6,
+.dari-damo .dari-damo-img2 p {
+    background: #808080;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 0px 0px 40px;
+    position: absolute;
+    top: 60px;
+    left: 212px;
+}
+
+.dari-damo .dari-damo-img2 p {
+    top: 22px !important;
+    left: 338px !important;
+    border-radius: 0px 40px 40px 0px !important;
+}
+
+/* 6th */
+
+/* 7th */
+.dari-contant .container-fluid {
+    padding: 20px 50px 0px;
+}
+
+.dari-contant .container-fluid .contant-section {
+    background-image: url(../img/dari-roket-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.dari-contant .container-fluid .contant-img2 {
+    background-image: url(../img/dari-contant-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 890px;
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+}
+
+.dari-contant .container-fluid .contant-section h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+.dari-contant .container-fluid .contant-img2 button {
+    background: radial-gradient(36.17% 167.16% at 50% 50.01%, #FF2639 0%, #EA1D2C 29%, #B3040A 90%, #A90004 100%);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* .dari-contant .container-fluid .contant-img2 button img {
+    margin-bottom: 10px;
+} */
+/* 7th */
+
+/* BEGIN MEDIA CURIES */
+@media only screen and (min-width: 1101px) and (max-width: 1211px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 12px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1100px) {
+    .dari-contant .container-fluid .contant-img2 {
+        height: 593px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 11px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .dari-contant .container-fluid .contant-img2 {
+        height: 593px;
+    }
+
+    .dari-text-section {
+        height: 469px;
+    }
+
+    .dari-about .container-fluid {
+        height: 324px;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 11px;
+        margin-right: -4px;
+    } */
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 10px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu-img {
+        width: 4%;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link img {
+        margin-bottom: 6px;
+        height: 100%;
+        width: 4%;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link .dropdown-img {
+        width: 4%;
+    }
+}
+
+@media (max-width: 767px) {
+    .dari-skincare .text-center h1 {
+        border-bottom: none;
+        margin-bottom: 0px;
+    }
+
+    .dari-items .dari-item-img .col-md-5 img {
+        display: none;
+    }
+
+    #mi-header-section .header-faces {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    #mi-header-section .w-100 {
+        margin: 5px 0px 5px 0px !important;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        /* text-align: center; */
+        width: 278px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .dari-text-section .text-center h2 {
+        font-size: 30px;
+    }
+
+    .dari-text-section .text-center h1 {
+        font-size: 33px;
+    }
+
+    .dari-contant .container-fluid .contant-section {
+        height: 400px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 {
+        height: 593px;
+    }
+
+    #mi-header-section .header-faces::after {
+        font-size: 62px;
+        margin-top: -163px;
+    }
+
+    #mi-header-section .w-100 {
+        height: 325px;
+    }
+
+    #mi-header-section .header-img {
+        height: 385px;
+    }
+
+    .dari-about .container-fluid {
+        height: 251px;
+        padding-top: 15px;
+    }
+
+    .dari-text-section {
+        height: 363px;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 11px;
+        margin-right: -4px;
+    } */
+
+    .dari-text-section .text-center {
+        padding-top: 6px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .dari-items .dari-product p {
+        padding: 50px 50px 0px 0px;
+        margin-bottom: 0px;
+    }
+
+    .bye-1 {
+        margin-left: -290px;
+    }
+
+    .bye-2 {
+        margin-left: 83px;
+    }
+
+    .bye-3 {
+        margin-left: 85px;
+    }
+
+    .goodbye {
+        margin-top: 80px;
+    }
+
+    .thank {
+        margin-left: 0px;
+    }
+
+    .dari-items .dari-item-img .col-md-5 img {
+        height: auto;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .dari-skincare {
+        padding: 20px 0px 40px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 {
+        padding: 0px 0px 22px 80px;
+    }
+
+    .dari-skincare .text-center h1 {
+        font-size: 25px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .dari-text-section .text-center h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .dari-text-section .text-center h1 {
+        font-size: 20px;
+    }
+
+    .dari-items .dari-product p {
+        font-size: 18px;
+        padding: 30px 10px 30px 10px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .dari-about .container-fluid .text-center p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .dari-contant .container-fluid .contant-section h1 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    .dari-contant .container-fluid .contant-section {
+        height: 288px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 {
+        height: 380px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 button {
+        font-size: 18px;
+        margin-bottom: 3px;
+        line-height: 20px;
+    }
+
+    /* .dari-contant .container-fluid .contant-img2 button img {
+        margin-bottom: 7px;
+        height: 23px;
+        width: 35px;
+    } */
+
+    .dari-damo .dari-damo-img2 {
+        padding-top: 30px;
+    }
+
+    #mi-header-section .header-faces::after {
+        font-size: 39px;
+        margin-top: -100px;
+    }
+
+    #mi-header-section .w-100 {
+        height: 200px;
+        margin: 20px 0px;
+    }
+
+    #mi-header-section .header-img {
+        height: 210px;
+    }
+
+    #mi-header-section .header-faces {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .dari-text-section {
+        height: 362px;
+    }
+
+    .dari-text-section .text-center {
+        padding-top: 20px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6::before {
+        margin-left: 20px;
+    }
+
+    .dari-about .container-fluid {
+        height: 156px;
+        padding-top: 0px;
+    }
+
+    .dari-damo {
+        padding: 30px 0px;
+    }
+
+    .dari-contant .container-fluid {
+        padding: 20px 20px 0px;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 11px;
+        margin-right: -4px;
+    } */
+
+    .dari-damo .col-md-6 img {
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .dari-navbar .navbar-nav .nav-item .nav-link img {
+        margin-bottom: 6px;
+        height: 100%;
+        width: 8%;
+    }
+
+    .dari-items .dari-product .row .col-md-4 {
+        padding: 0px 0px 22px 50px;
+    }
+
+    .dari-damo .col-md-6 img {
+        width: 80%;
+        height: 100%;
+        margin: 0px auto;
+        display: flex;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link .dropdown-img {
+        width: 8%;
+    }
+
+    .dropdown-menu-img {
+        width: 8%;
+    }
+
+    .dari-skincare .text-center h1 {
+        font-size: 19px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .dari-text-section .text-center h2 {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .dari-text-section .text-center h1 {
+        font-size: 13px;
+    }
+
+    .dari-items .dari-product p {
+        font-size: 13px;
+        padding: 20px 0px 0px 0px;
+        line-height: 20px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 12px;
+    }
+
+    .dari-about .container-fluid .text-center p {
+        font-size: 12px;
+    }
+
+    .dari-contant .container-fluid .contant-section h1 {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+    .dari-contant .container-fluid .contant-section {
+        height: 160px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 {
+        height: 250px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 button {
+        font-size: 12px;
+        margin-bottom: 15px;
+        line-height: 0px;
+        margin-right: 25px;
+    }
+
+    /* .dari-contant .container-fluid .contant-img2 button img {
+        margin-bottom: 6px;
+        height: 12px;
+        width: 18px;
+    } */
+
+    #mi-header-section .header-faces::after {
+        font-size: 27px;
+        margin-top: -60px;
+    }
+
+    #mi-header-section .w-100 {
+        height: 140px;
+        margin: 10px 0px;
+    }
+
+    #mi-header-section .header-img {
+        height: 150px;
+    }
+
+    #mi-header-section .header-faces {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .dari-skincare {
+        padding: 15px 0px 15px;
+    }
+
+    .dari-skincare .text-center h1 b {
+        font-size: 26px;
+    }
+
+    .dari-skincare .text-center p:last-child {
+        margin-bottom: 15px;
+    }
+
+    .dari-text-section {
+        height: 200px;
+    }
+
+    .dari-text-section .text-center {
+        padding-top: 20px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6::before {
+        margin-left: 12px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .dari-about .container-fluid {
+        padding-top: 0px;
+        height: 160px;
+    }
+
+    .dari-about .container-fluid .text-center p {
+        font-size: 12px;
+        margin-bottom: 0px;
+        line-height: 16px;
+        padding-top: 5px;
+    }
+
+    .dari-damo {
+        padding: 30px 0px;
+    }
+
+    .dari-damo .dari-damo-img2 {
+        padding-top: 10px;
+    }
+
+    .dari-contant .container-fluid {
+        padding: 0px 20px 0px;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 11px;
+        margin-right: -4px;
+        width: 33px;
+    } */
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        /* text-align: center; */
+        width: 260px;
+    }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+    .dropdown-menu-img {
+        width: 8%;
+    }
+
+    .dari-items .dari-product .row .col-md-4 {
+        padding: 0px 0px 22px 50px;
+    }
+
+    .dari-damo .col-md-6 img {
+        width: 80%;
+        height: 100%;
+        margin: 0px auto;
+        display: flex;
+    }
+
+    .dari-skincare .text-center h1 {
+        font-size: 18px;
+    }
+
+    .dari-skincare .text-center h1 b {
+        font-size: 25px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .dari-skincare .text-center p:last-child {
+        margin-bottom: 15px;
+    }
+
+    .dari-text-section {
+        height: 160px;
+    }
+
+    .dari-text-section .text-center {
+        padding-top: 20px;
+    }
+
+    .dari-text-section .text-center h2 {
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    .dari-text-section .text-center h1 {
+        font-size: 11px;
+    }
+
+    .dari-items .dari-product p {
+        font-size: 15px;
+        padding: 20px 0px 20px 0px;
+        line-height: 22px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6::before {
+        margin-left: 12px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .dari-about .container-fluid {
+        padding-top: 0px;
+        height: 120px;
+    }
+
+    .dari-damo {
+        padding: 10px 0px;
+    }
+
+    .dari-damo .dari-damo-img2 {
+        padding-top: 10px;
+    }
+
+    .dari-contant .container-fluid {
+        padding: 0px 20px 0px;
+    }
+
+    .dari-about .container-fluid .text-center p {
+        font-size: 9px;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+
+    .dari-contant .container-fluid .contant-section h1 {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+
+    .dari-contant .container-fluid .contant-section {
+        height: 148px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 {
+        height: 220px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 button {
+        font-size: 10px;
+        margin-bottom: 5px;
+        line-height: 0px;
+        margin-right: 35px;
+    }
+
+    /* 
+    .dari-contant .container-fluid .contant-img2 button img {
+        margin-bottom: 4px;
+        height: 10px;
+        width: 16px;
+    } */
+
+    #mi-header-section .header-faces::after {
+        font-size: 23px;
+        margin-top: -60px;
+    }
+
+    #mi-header-section .w-100 {
+        height: 151px;
+        margin: 5px 0px;
+    }
+
+    #mi-header-section .header-img {
+        height: 161px;
+    }
+
+    #mi-header-section .header-faces {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .dari-skincare {
+        padding: 10px 0px 10px;
+    }
+
+    .dropdown-menu-img {
+        width: 8%;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link img {
+        margin-bottom: 6px;
+        height: 100%;
+        width: 8%;
+    }
+
+    .dari-navbar .navbar-nav .nav-item .nav-link .dropdown-img {
+        width: 8%;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 11px;
+        margin-right: -4px;
+        width: 33px;
+    } */
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        width: 90%;
+    }
+
+}
+
+/* END MEDIA CURIES */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 14px;
+        margin-right: -4px;
+        margin-bottom: 11px;
+    } */
+
+    .dari-skincare .text-center h1 {
+        font-size: 40px;
+    }
+
+    .dari-skincare .text-center h1 b {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 1279px) and (max-width: 1280px) {
+    .dari-contant .container-fluid .contant-img2 button {
+        margin-right: 140px;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 14px;
+        margin-right: -4px;
+        margin-bottom: 12px;
+    } */
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1366px) {
+    .dari-contant .container-fluid .contant-img2 button {
+        margin-right: 140px;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    #mi-header-section .w-100 {
+        margin: 60px 0px;
+        height: 800px;
+    }
+
+    #product-card-section {
+        max-width: 1720px;
+    }
+
+    .dari-skincare .text-center h1 {
+        font-size: 65px;
+        width: 80% !important;
+    }
+
+    /* .dari-skincare .text-center h1 img {
+        margin-bottom: 25px;
+        width: 12%;
+        margin-right: -8px;
+    } */
+
+    .dari-skincare .text-center h1 b {
+        font-size: 90px;
+    }
+
+    .dari-skincare .text-center p {
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .dari-text-section {
+        height: 900px;
+    }
+
+    .dari-text-section .text-center {
+        padding-top: 70px;
+    }
+
+    .dari-text-section .text-center h2 {
+        font-size: 55px;
+        line-height: 58px;
+    }
+
+    .dari-text-section .text-center h1 {
+        font-size: 55px;
+        line-height: 95px;
+    }
+
+    .dari-contant .container-fluid .contant-section {
+        height: 705px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 {
+        height: 990px;
+        margin-top: 0px;
+    }
+
+    .dari-contant .container-fluid .contant-section h1 {
+        font-size: 50px;
+    }
+
+    .dari-about .container-fluid .text-center p {
+        font-size: 40px;
+        line-height: 55px;
+        font-weight: 400;
+    }
+
+    .dari-about .container-fluid {
+        height: 622px;
+    }
+
+    .dari-items .dari-product p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .dari-product {
+        margin-left: -65px;
+    }
+
+    .dari-items .dari-product p {
+        padding: 50px 0px 20px 10px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6::before {
+        height: 72px;
+        width: 72px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 21px;
+    }
+
+    .dari-items .dari-product .row .col-md-4 {
+        position: relative;
+        padding: 11px 0px 60px 85px;
+    }
+
+    .dari-contant .container-fluid .contant-img2 button {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    /* .dari-contant .container-fluid .contant-img2 button img {
+        margin-bottom: 12px;
+        width: 45px;
+        height: 35px;
+    } */
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1540px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1541px) and (max-width: 1640px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1641px) and (max-width: 1740px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1741px) and (max-width: 1840px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (min-width: 1841px) and (max-width: 1868px) {
+    .dari-items .dari-product .row .col-md-4 h6 {
+        font-size: 20px;
+    }
+}

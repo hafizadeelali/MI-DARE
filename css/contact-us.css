@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.contant-us-page .contant-us-heading h1 {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 24px;
+    color: #C50000;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+/* BEGIN: CONTANT FORM */
+.contant-us-page .contant-foam-bg .col-md-7 {
+    padding: 60px 40px 100px 0px;
+    position: relative;
+}
+
+/* top */
+.contant-us-page .contant-foam-bg .col-md-7 .top-leef {
+    position: absolute;
+    top: 6px;
+    right: 200px;
+    width: 10%;
+    z-index: 111;
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .top-boll {
+    position: absolute;
+    top: 55px;
+    right: 14px;
+    width: 6%;
+    z-index: -111;
+}
+
+.form-control:focus {
+    /* box-shadow: 0 0 0 0.25rem #C50000; */
+    /* border: none !important; */
+    box-shadow: 0 0 0 1.25px #C50000;
+    border: none;
+    background: transparent;
+    color: #C50000;
+}
+
+/* top */
+
+/* bottom */
+.contant-us-page .contant-foam-bg .col-md-7 .bottom-leef {
+    position: absolute;
+    bottom: 65px;
+    left: -22px;
+    width: 10%;
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .bottom-blon {
+    position: absolute;
+    bottom: 75px;
+    right: 80px;
+    width: 6%;
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .center-leef {
+    position: absolute;
+    bottom: 300px;
+    right: -30px;
+    width: 10%;
+    z-index: -111;
+}
+
+/* bottom */
+
+
+
+.contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+    background: #E9E9E9 url(../img/contact-us-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    border-radius: 0px 35px 35px 0px;
+    padding: 40px 40px 58px 40px;
+    opacity: .9;
+
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0px;
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam input {
+    border: 0.5px solid #C50000;
+    background: transparent;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam textarea {
+    background: transparent;
+    border-radius: 6px;
+    border: 0.5px solid #C50000;
+    width: 100%;
+
+}
+
+.contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam button {
+    background: radial-gradient(35.48% 417.38% at 50% 50%, #FF2639 0%, #EA1C2C 30%, #B30309 92%, #AB0004 100%);
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END: CONTANT FORM */
+
+/* BEGIN: CONTANT SIDE BAR */
+.sidebar-detail {
+    height: 92%;
+    margin-top: 10px;
+}
+
+.contant-us-page .contant-foam-bg .col-md-5 {
+    padding: 60px 0px 100px 40px;
+    position: relative;
+}
+
+
+.contant-us-page .contant-foam-bg .col-md-5 .top1-leef {
+    position: absolute;
+    top: 7px;
+    left: 85px;
+    z-index: -111;
+    width: 15%;
+}
+
+.contant-us-page .contant-foam-bg .col-md-5 .top1-blon {
+    position: absolute;
+    top: 50px;
+    right: -8px;
+    width: 10%;
+    z-index: 111;
+}
+
+.contant-us-page .contant-foam-bg .col-md-5 .top1-boll {
+    position: absolute;
+    top: 45px;
+    left: 300px;
+    width: 5%;
+    z-index: -111;
+}
+
+
+.contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg {
+    background: url(../img/contant-us-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 700px; */
+    border-radius: 35px 0px 0px 35px;
+    padding: 10px;
+}
+
+.contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px 20px;
+    margin: 0px;
+}
+
+.contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg .clender-detail {
+    /* display: flex; */
+    padding: 0px;
+    margin: 0px 30px 50px;
+}
+
+.clender-detail .col-md-2 img {
+    width: 70%;
+}
+
+.clender-detail .col-md-10 p {
+    margin: 4px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.clender-detail .col-md-10 h6 {
+    /* margin: 7px 0px 0px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.contant-us-page .contant-foam-bg .contant-dropdown-item .col-md-2 {
+    display: flex;
+    justify-content: end;
+}
+
+.contant-us-page .contant-foam-bg .contant-dropdown-item .col-md-3 img {
+    height: 90%;
+}
+
+.contant-dropdown-item .col-md-10 .general-inquiry p,
+.contant-dropdown-item .col-md-10 .investors p,
+.contant-dropdown-item .col-md-10 .press p,
+.contant-dropdown-item .col-md-10 .sales p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #EB898F;
+    margin: 0px;
+}
+
+.contant-dropdown-item .col-md-10 .investors p {
+    padding-top: 68px !important;
+}
+
+.contant-dropdown-item .col-md-10 .press p {
+    padding-top: 62px !important;
+}
+
+.contant-dropdown-item .col-md-10 .sales p {
+    padding-top: 60px;
+}
+
+.contant-dropdown-item .col-md-10 .general-inquiry h2,
+.contant-dropdown-item .col-md-10 .investors h2,
+.contant-dropdown-item .col-md-10 .press h2,
+.contant-dropdown-item .col-md-10 .sales h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+    /* padding-bottom: 20px; */
+}
+
+.contant-us-page .contant-foam-bg .contant-social-links {
+    padding: 60px 70px 30px;
+}
+
+.contant-us-page .contant-foam-bg .contant-social-links h6 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #EB898F;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.contant-us-page .contant-foam-bg .contant-social-links i {
+    border: 1px solid #fff;
+    padding: 6px;
+    margin: 0px 20px 0px 0px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+/* END: CONTANT SIDE BAR */
+
+@media (max-width: 1300px) {
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 710px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .contant-us-page .contant-foam-bg .col-md-7 .center-leef {
+        right: -10px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-leef {
+        top: 20px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-boll {
+        right: 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-leef {
+        top: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .clender-detail .col-md-2 img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu-img {
+        width: 4%;
+    }
+}
+
+@media (max-width: 971px) {
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg {
+        padding: 10px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 700px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-boll {
+        top: 50px;
+        left: 250px;
+    }
+
+    .clender-detail .col-md-10 p {
+        font-size: 12px;
+    }
+
+    .clender-detail .col-md-10 h6 {
+        font-size: 16px;
+    }
+
+    .clender-detail .col-md-2 img {
+        width: 45px;
+    }
+}
+
+@media (max-width: 880px) {
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg {
+        padding: 10px 0px 10px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-social-links i {
+        margin: 0px 10px 0px 0px;
+    }
+
+    .contant-dropdown-item .col-md-10 .general-inquiry p,
+    .contant-dropdown-item .col-md-10 .investors p,
+    .contant-dropdown-item .col-md-10 .press p,
+    .contant-dropdown-item .col-md-10 .sales p {
+        font-size: 10px;
+    }
+
+    .contant-dropdown-item .col-md-10 .general-inquiry h2,
+    .contant-dropdown-item .col-md-10 .investors h2,
+    .contant-dropdown-item .col-md-10 .press h2,
+    .contant-dropdown-item .col-md-10 .sales h2 {
+        font-size: 14px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-dropdown-item .col-md-2 img {
+        height: 85%;
+    }
+
+    .clender-detail .col-md-10 {
+        padding: 0px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-social-links {
+        padding: 60px 30px 30px;
+    }
+
+    .clender-detail .col-md-10 h6 {
+        margin-left: 20px;
+    }
+
+    .clender-detail .col-md-10 p {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 793px) {
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 700px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contant-us-page .contant-us-heading h1 {
+        font-size: 22px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 {
+        padding: 0px 20px 50px 20px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 {
+        padding: 65px 20px 50px 20px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg {
+        border-radius: 35px;
+        padding: 0px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-social-links {
+        padding: 0px 70px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg .clender-detail {
+        margin: 0px 70px 50px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-leef {
+        top: 15px;
+        left: 80px;
+        width: 10%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-boll {
+        top: 45px;
+        left: 370px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-blon {
+        top: 45px;
+        right: 12px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        border-radius: 35px;
+        /* padding: 40px 40px 58px 40px; */
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-leef {
+        top: 20px;
+        right: 0px;
+        left: 160px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-boll {
+        right: 5px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .bottom-leef {
+        left: 100px;
+    }
+
+    .large-screen-view-1 {
+        display: none;
+    }
+
+    .large-screen-view-2 {
+        display: none;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg .clender-detail {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .contant-us-page .contant-us-heading h1 {
+        font-size: 16px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-leef {
+        top: 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg {
+        padding: 0px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .bottom-leef {
+        bottom: 75px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-leef {
+        top: 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam label {
+        font-size: 14px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam input {
+        height: 40px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam button {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 600px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-boll {
+        left: 250px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg .clender-detail {
+        margin: 0px 15px 30px;
+    }
+
+    .clender-detail .col-md-10 h6 {
+        margin-left: 40px;
+    }
+
+    .clender-detail .col-md-10 p {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam button img {
+        width: 21px;
+        margin-bottom: 6px;
+    } */
+}
+
+@media (max-width: 360px) {
+    .contant-us-page .contant-us-heading h1 {
+        font-size: 14px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 {
+        padding: 0px 20px 30px 20px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg .clender-detail {
+        margin: 0px 15px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg h1 {
+        font-size: 20px;
+    }
+
+    .clender-detail .col-md-2 img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .clender-detail .col-md-10 p {
+        margin: -3px 0px 0px;
+    }
+
+    .clender-detail .col-md-10 {
+        padding: 0px 0px 0px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-leef {
+        top: 0px;
+        width: 15%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-blon {
+        top: 15px;
+        right: 15px;
+        width: 14%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-boll {
+        left: 200px;
+        top: 20px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-social-links {
+        padding: 0px 30px 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 500px;
+        padding: 20px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam label {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam input {
+        height: 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-boll {
+        right: 30px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-leef {
+        top: 40px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .bottom-blon {
+        bottom: 68px;
+        right: 50px;
+        width: 8%;
+    }
+
+    .clender-detail .col-md-10 h6 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1440px) {
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 710px;
+    }
+}
+
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+    .contant-us-page .contant-us-heading h1 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam {
+        height: 905px;
+        padding: 90px 40px 58px 40px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam label {
+        font-size: 25px;
+        line-height: 46px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-social-links h6,
+    .clender-detail .col-md-10 p,
+    .contant-dropdown-item .col-md-10 .general-inquiry p,
+    .contant-dropdown-item .col-md-10 .investors p,
+    .contant-dropdown-item .col-md-10 .press p,
+    .contant-dropdown-item .col-md-10 .sales p {
+        font-size: 20px;
+    }
+
+    .clender-detail .col-md-10 h6,
+    .contant-dropdown-item .col-md-10 .general-inquiry h2,
+    .contant-dropdown-item .col-md-10 .investors h2,
+    .contant-dropdown-item .col-md-10 .press h2,
+    .contant-dropdown-item .col-md-10 .sales h2 {
+        font-size: 35px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .contant-us-bg h1 {
+        font-size: 40px;
+    }
+
+    .contant-us-page .contant-foam-bg .contant-social-links i {
+        padding: 14px;
+        border-radius: 14px;
+        font-size: 23px;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .contant-us-foam button {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    
+    .contant-us-page .contant-foam-bg .col-md-7 .bottom-leef {
+        bottom: 18px;
+        left: -45px;
+        width: 14%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .bottom-blon {
+        bottom: 40px;
+        width: 8%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-blon {
+        width: 12%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-leef {
+        top: -30px;
+        width: 18%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-5 .top1-boll {
+        top: 30px;
+        width: 8%;
+    }
+
+    .contant-us-page .contant-foam-bg .col-md-7 .top-leef {
+        top: -14px;
+        width: 12%;
+    }
+
+    .sidebar-detail {
+        height: 89%;
+    }
+}
+
+@media (min-width: 768px) {
+    .small-screen-view-2 {
+        display: none;
+    }
+
+    .small-screen-view-1 {
+        display: none;
+    }
+}
